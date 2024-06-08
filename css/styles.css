@@ -270,3 +270,122 @@ margin-right: 40px;
   text-align: center;
   color: #fff;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.request {
+    background-color: #fafafa;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.request-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.3;
+        text-align: center;
+        color: #2e363e;
+        max-width: 707px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 26px;
+}
+
+.request-text {
+    font-size: 21px;
+        line-height: 1.43;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: #2e363e;
+        margin-bottom: 50px;
+}
+
+.request-form {}
+
+.request-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+.request-form-label {}
+
+
+.request-form-input {
+    border: 1px solid rgba(0, 0, 0, 0.32);
+        border-radius: 5px;
+        padding: 16px 21px;
+        width: 280px;
+        height: 70px;
+        outline: transparent;
+}
+
+.request-form-input::placeholder {
+font-weight: 400;
+    font-size: 17px;
+    line-height: 1.1;
+    color: #bfbfbf;
+   
+}
+.request-form-input:focus {
+    border-color: #275f7a;
+}
+
+.request-form-btn {
+    border-radius: 5px;
+       min-width: 280px;
+        height: 70px;
+        background-color: #275f7a;
+        border: none;
+        font-weight: 600;
+            font-size: 18px;
+            line-height: 1.1;
+            text-align: center;
+            color: #fff;
+}
+.request-form-checkbox {
+    display: flex;
+justify-content: center;
+    }
+
+.request-checkbox:checked + .request-checkbox-label > .request-custom-checkbox{
+    fill: #fff;
+    border: none;
+    background-color: #022c40;
+
+}
+
+.request-checkbox-label {
+    font-size: 11px;
+        line-height: 1.3;
+        color: #7e868e;
+}
+
+.request-custom-checkbox {
+    width: 12px;
+        height: 12px;
+        border: 1px solid #000;
+            border-radius: 2px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            fill: transparent;
+            margin-right: 7px;
+}
+
+.request-form-link {
+    text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #275f7a;
+}
